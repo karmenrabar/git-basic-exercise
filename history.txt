@@ -1,0 +1,212 @@
+    1  git config --global user.name "karmen.rabar" $ git config --global user.email "karmen.rabar@gmail.com"
+    2  git --version
+    3  ssh-keygen -t rsa -b 4096 -C "karmen.rabar@gmail.com"
+    4  key
+    5  ls | grep key
+    6  cat key.pub
+    7  eval "$(ssh-agent -s)"
+    8  ssh-add ~/.ssh/key1
+    9  ssh-add ~/.ssh/key
+   10  ssh-add ~/.ssh/
+   11  ssh-add ~/.ssh/
+   12  ssh-add ~/.ssh/ 
+   13  ssh-add ~/.ssh/key
+   14  ssh-add ~/.ssh/key
+   15  ssh-add ~/.ssh/key
+   16  ssh-add ~/.ssh/key
+   17  ssh-add ~/.ssh/id_rsa
+   18  ssh-add ~/.ssh/id_rsa
+   19  ssh-add ~/.ssh/key
+   20  ssh-add ~/.ssh/id_rsa
+   21  ssh-add ~/key
+   22  git config --global user.name "karmen"
+   23  git config --global user.email "karmen.rabar@gmail.com"
+   24  git config --global color.ui auto
+   25  git config
+   26  gif config l
+   27  gif config -l
+   28  git config -l
+   29  cd Desktop
+   30   config --global color.ui auto
+   31  Desktop mkdir learning-git
+   32  ls
+   33  mkdir learning-git
+   34  cd learning-git
+   35  ls
+   36  git init .
+   37  ls -a
+   38  rm -rf .git
+   39  git add
+   40  git init . 
+   41  touch index.html
+   42  touch index.js
+   43  touch main.css
+   44  ls
+   45  git status
+   46  git rm --cacched
+   47  git rm --cached
+   48  git rm --cached index.html
+   49  status
+   50  git status
+   51  git add index.html
+   52  git status
+   53  git rm --cached index.html
+   54  git status
+   55  git add main.css
+   56  git add .
+   57  git status
+   58  git rm -r --cached
+   59  git rm -r --cached .
+   60  mkdir test
+   61  cd test 
+   62  touch test.js 
+   63  git status
+   64  ls
+   65  git add .
+   66  git status
+   67  git add -A
+   68  git status
+   69  cd ..
+   70  git commit -m "bootstrap project"
+   71  git status
+   72  git diff
+   73  git log
+   74  git restore index.js
+   75  ls
+   76  vi main.css
+   77  git status
+   78  git add . 
+   79  git add . 
+   80  git commit -m "ajdsda"
+   81  git log
+   82  git commit --amend -m "added body {} in main.css"
+   83  git remote add origin https://github.com/karmenrabar/learning-git.git
+   84  git branch -M master
+   85  git branch -M main
+   86  git push -u origin main
+   87  git pull
+   88  ls
+   89  vi main.go 
+   90  git status
+   91  git add .
+   92  git status
+   93  git commit -m "added main.go with empty main function"
+   94  git log
+   95  git push
+   96  car main.go
+   97  git pull 
+   98  cat main.go
+   99  git branch
+  100  git branch -r
+  101  git branch -a
+  102  git branch feature -a
+  103  git branch feature-a
+  104  git checkout feature-a
+  105  git checkout -
+  106  git checkout -
+  107  vi utils.js
+  108  git status
+  109  git add .
+  110  git commit -m "utils.js with todo"
+  111  git log
+  112  git checkout -
+  113  git log
+  114  git checkout -
+  115  git push
+  116  git push --set-upstream origin feature-a
+  117  git checkout main
+  118  git checkout -b
+  119  git checkout -b to-delete
+  120  git branch -a
+  121  git checkout -
+  122  git branch -d to-delete
+  123  git log
+  124  git log --oneline
+  125  git pull
+  126  git log --oneline
+  127  git branch -d feature-a
+  128  git branch -a
+  129  git checkout -b feature-xyz
+  130  ls
+  131  cat index.html
+  132  git add .
+  133  git commit -m "add html"
+  134  git push
+  135   git push --set-upstream origin feature-xyz
+  136  git add .
+  137  git commit -m "added p tag"
+  138  git push
+  139  cd Desktop 
+  140  cd learning-git
+  141  ls
+  142  cd ..
+  143  mkdir git-basic-exercises 
+  144  cd git-basic-exercises 
+  145  ls -a
+  146  git init
+  147  ls -a
+  148  git status
+  149  touch README.md
+  150  ls -a
+  151  git status
+  152  git log 
+  153  clear
+  154  git add 
+  155  git add .
+  156  git status
+  157  git status
+  158  git rm --cached "README.md"
+  159  git status
+  160  git add  .
+  161  [200~git commit -m "initial commit"~
+  162  git commit -m "initial commit"
+  163  git log
+  164  nano README.md
+  165  cat README.md
+  166  git stats
+  167  git status
+  168  git commit -m "second commit"
+  169  git add .
+  170  git commit -m "second commit"
+  171  nano README.md
+  172  cat README.md
+  173  git stauts
+  174  git status
+  175  git add .
+  176  git commit -m "third commit"
+  177  git log
+  178  git checkout b7520bfed7ba65b10c8723e9328398d89b1c27ad
+  179  cat README.md
+  180  git checkout master 
+  181  car README.md
+  182  cat README.md
+  183  git branch
+  184  milkshake-flavours
+  185  git branch milkshake-flavours
+  186  git branch
+  187  git branch milkshake-flavours 
+  188  git checkout milkshake-flavours 
+  189  git branches
+  190  git branch
+  191  git checkout -
+  192  git checkout -
+  193  nano milkshakes.md
+  194  git status
+  195  git add .
+  196  git commit -m "added flavours"
+  197  git log
+  198  checkout branch master
+  199  git checkout master
+  200  git branch
+  201  git log
+  202  git branch history
+  203  git checkout history
+  204  git log 
+  205  git branch 
+  206  git checkout -
+  207  git log
+  208  git checkout milkshake-flavours
+  209  git loh
+  210  git log
+  211  git checkout history
+  212  history > history.txt
